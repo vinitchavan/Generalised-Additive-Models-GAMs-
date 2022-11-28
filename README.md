@@ -5,8 +5,13 @@ Py Earth Model and Py Gam Model are the two models we built above. Both models e
 
 PyEarth Model : The py-earth package is a Python implementation of Jerome Friedman’s Multivariate Adaptive Regression Splines algorithm, in the style of scikit-learn. For more information about Multivariate Adaptive Regression Splines.
 
-PyGam: Generalized Additive Models (GAMs) are smooth semi-parametric models of the form: g(E[y|X])=β0+f1(X1)+f2(X2,X3)+…+fM(XN)
-where X.T = [X_1, X_2, ..., X_N] are independent variables, y is the dependent variable, and g() is the link function that relates our predictor variables to the expected value of the dependent variable.
+PyGam: Generalized Additive Models (GAMs) are smooth semi-parametric models of the form:
+
+g(E[y|X])=β0+f1(X1)+f2(X2,X3)+…+fM(XN)
+
+where X.T = [X_1, X_2, ..., X_N] are independent variables, 
+
+y is the dependent variable, and g() is the link function that relates our predictor variables to the expected value of the dependent variable.
 
 
 only curves in the Py Earth model fit the knots. Therefore, utilising splines, relatively few machines will fit a curve. We just use 10 splines, but as they number grows, the likelihood of a curve fitting increases.
