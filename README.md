@@ -27,3 +27,4 @@ only curves in the Py Earth model fit the knots. Therefore, utilising splines, r
 Gam Py model It duplicated the function rather than merely fitting the curve. In order to simulate iterative work, the curve will be fitted using splines and logistic regression will then be used. Each fit curve makes it into the logistic function. It fitted the curve once more and applied the logistic function on the second value.
 Because of this, the Gam model's accuracy is greater than the Py earth model.
 Overall, just the curve is fit by the spline model. however GAM model Utilize the curve fit in logistic modelling.
+![image](https://user-images.githubusercontent.com/70135833/204481697-1fd98a98-09f5-4c0c-bf2c-52125b5f41ec.png)
