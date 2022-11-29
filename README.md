@@ -1,4 +1,12 @@
-# Generalised-Additive-Models-GAMs-
+# Generalised-Additive-Models-GAMs-on NBA Dataset
+
+I've always loved basketball, and I've always wanted to combine that love with my interest for analytics. I thus built this data collection using the NBA Stats API. I sincerely hope that working with you turns out to be as exciting as it has been for me!
+
+### Content
+Every player who has ever been on the roster of an NBA franchise is represented in the data collection, which spans more than 20 years. It includes biographical information like the team played for, draught year, and round, as well as demographic factors like age, height, weight, and place of birth. It also includes fundamental box score information, such as the number of games played, average points scored per game, rebounds, assists, etc.
+
+### Analysis:
+
 Linear Models are considered the Swiss Army Knife of models. There are many adaptations we can make to adapt the model to perform well on a variety of conditions and data types.  Generalised Additive Models (GAMs) are an adaptation that allows us to model non-linear data while maintaining explainability.
 
 Py Earth Model and Py Gam Model are the two models we built above. Both models employ splines and are nonlinear in nature.
